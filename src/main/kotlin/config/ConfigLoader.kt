@@ -17,10 +17,6 @@ class ConfigLoader {
     fun loadConfig() {
         try {
             print("\nLoading..")
-//            for (i in 0..2) {
-//                print(".")
-//                Thread.sleep(1000)
-//            }
             println()
             val configFile = "./config/config.json"
             if (!File(configFile).exists()) {
